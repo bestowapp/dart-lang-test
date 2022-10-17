@@ -13,5 +13,7 @@ export 'package:test_api/test_api.dart' show registerException;
 // Deprecated exports not surfaced through focused libraries.
 export 'package:test_api/test_api.dart'
     show ErrorFormatter, expectAsync, throws, Throws;
+export 'package:test_core/src/runner.dart' show Runner;
+export 'package:test_core/src/runner/configuration.dart' show Configuration;
 
 export 'scaffolding.dart';
